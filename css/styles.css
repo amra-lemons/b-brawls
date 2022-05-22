@@ -1,0 +1,228 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+nav{
+    background-color: #4b324b
+}
+
+/* HEADINGS*/
+
+h2, h3, h4, h5{
+    font-weight: bold;
+}
+h2, h3{
+    line-height: 1.5;
+}
+.bigHeading{
+    font-size: 2.7rem;
+}
+.topH{
+    color: white;
+    padding-bottom: 30px;
+}
+.priceTitle h2{
+    color: #e42626;
+    padding-bottom: 20px;
+    margin-top: 5px;
+}
+.pricing-col h2{
+    margin-top: 0.4rem;
+}
+.pricing-col h2, .pricing-col p{
+    margin-bottom: 1.4rem;
+}
+.feature-box h3{
+    margin: 10px 0;
+}
+.pricing-col h3{
+    margin-bottom: 0;
+    color: #212529;
+}
+
+/* NAVIGATION BAR */
+
+.navbar-brand img{
+    margin-right: 10px;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-link{
+    font-size: 1.1rem;
+    font-family: 'Montserrat-light';
+}
+
+/* HERO */
+
+.firstVisual{
+    padding: 50px 0 100px;
+}
+#title{
+    background-color: #4b324b;
+}
+.title-text{
+    padding-top: 80px;
+    position: relative;
+    z-index: 3;
+    max-width: 85%;
+    text-align: left;
+}
+.title-pic{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.title-pic .el-loco{
+    max-width: 85%;
+    overflow: hidden;
+    transform: rotate(15deg);
+}
+.btn-download{
+    margin: 3% 3% 3% 0;
+}
+.red-btn{
+    background-color: #e42626;
+}
+.red-btn:hover{
+    background-color: #c41010;
+}
+
+/* FEATURES */
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+#features, #pricing, #cta, #footer{
+    padding: 5% 10%;
+}
+.feature-box{
+    padding: 5% 4%;
+}
+.feature-box p{
+    color: #736973;
+}
+.feature-box .fas{
+    color: #e42626;
+    margin-bottom: 1rem;
+}
+.feature-box .fas:hover{
+    color: #4b324b;
+    transition: all .2s ease-out;
+}
+
+/* TESTIMONIALS */
+
+#testimonials, #press{
+    background-color: #d7d7d7;
+    color: #4b324b;
+}
+.testimonial-image{
+    width: 7%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    padding-bottom: 7%;
+}
+.press-logo{
+    height: 80px;
+    margin: 0 20px;
+}
+.press-logo.pl03{
+    height: 40px;
+}
+.carousel-item{
+    padding: 7% 10% 40px;
+}
+
+
+/* PRICING */
+
+.priceTitle{
+    margin-bottom: 35px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.pricing-col .d-grid{
+    margin-bottom: 0.4rem;
+}
+.card{
+    border: 1px solid #b3b3b3;
+}
+.card-header{
+    padding: 1rem;
+    background-color: #d7d7d7;
+}
+.btn-dark{
+    background-color: #4b324b;
+    border-color: #4b324b;
+}
+.btn-dark:hover{
+    background-color: #3b283b;
+    border-color: #3b283b;
+    transition: all .2s ease-out;
+}
+
+/* CTA */
+
+#cta{
+    background-color: #e42626;
+}
+#cta .btn-download{
+    margin: 3% 2%;
+}
+
+/* FOOTER */
+
+#footer{
+    background-color: #3b283b;
+    color: #e3e3e3;
+}
+.social-icon{
+    margin: 20px 10px;
+    font-style: normal;
+}
+.icons{
+    margin-bottom:30px;
+}
+.sign{
+    text-decoration: none;
+    color: #fa7575;
+}
+.sign:hover{
+    color: #fc5656;
+    transition: all .2s ease-out;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 992px){
+    .title-pic{
+        display: block;
+        position: relative;
+        top: 0;
+    }
+    .title-text{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    .title-pic .el-loco{
+        padding-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
